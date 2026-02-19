@@ -46,22 +46,39 @@ LLM Integration – AI-powered medical report structuring
 
 📁 Project Structure
 ├── config/
+
 │   └── db.js
+
 ├── controllers/
+
 │   ├── authController.js
+
 │   └── reportController.js
+
 ├── middleware/
+
 │   ├── authMiddleware.js
+
 │   └── validationMiddleware.js
+
 ├── models/
+
 │   ├── User.js
+
 │   └── Report.js
+
 ├── routes/
+
 │   ├── authRoutes.js
+
 │   └── reportRoutes.js
+
 ├── utils/
+
 ├── uploads/
+
 ├── server.js
+
 └── package.json
 
 🔐 Authentication Flow
@@ -87,6 +104,7 @@ Extracted text sent to LLM
 Structured medical data generated and stored
 
 🛠 Installation & Setup
+
 1️⃣ Clone Repository
 git clone https://github.com/yourusername/health-vault-backend.git
 cd health-vault-backend
@@ -150,4 +168,5 @@ CI/CD integration
 👨‍💻 Author
 
 Hamza Shahid Siddiqui
+
 Backend Developer | Learning AI Integration | HealthTech Enthusiast
